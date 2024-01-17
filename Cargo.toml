@@ -6,7 +6,7 @@ resolver = "2"
 opt-level = 3
 incremental = true
 lto = "fat"
-#codegen-units = 1
+codegen-units = 1
 
 [profile.bench]
 opt-level = 3
