@@ -5,7 +5,7 @@
 #![allow(clippy::needless_range_loop)]
 #![feature(specialization)]
 #![cfg_attr(not(test), no_std)]
-#![feature(stdarch_x86_avx512)]
+#![cfg_attr(target_arch = "x86_64", feature(stdarch_x86_avx512))]
 
 extern crate alloc;
 
